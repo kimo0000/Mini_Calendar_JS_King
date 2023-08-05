@@ -1,0 +1,60 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: linear-gradient(to right, #f145, #af2872);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  overflow: hidden;
+}
+
+header {
+  padding: 15px;
+  background-color: yellowgreen;
+  font-size: 25px;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  gap: 15px;
+}
+
+#weekday {
+  font-size: 25px;
+}
+
+#dayNum,
+#year {
+  font-size: 35px;
+  color: #af2872;
+}
+
+#year {
+  font-size: 18px;
+}
